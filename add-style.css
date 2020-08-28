@@ -1,0 +1,69 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#mainNav .brand {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+#mainNav .navbar-inner {
+  background: rgb(70, 33, 199);
+  background: linear-gradient(
+    90deg,
+    rgba(70, 33, 199, 1) 0%,
+    rgba(125, 94, 237, 1) 100%
+  );
+}
+
+#docsSearch {
+  /* background-color: #fafafa; */
+  border-bottom: 0;
+}
+
+#docsSearch h1 {
+  font-weight: 900;
+  /* margin: 20px; */
+  color: #6442CD;
+}
+
+.subHeader {
+  font-weight: 300;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px;
+}
+
+#searchBar button {
+  background: #6442CD;
+  border-radius: 0 25px 25px 0;
+  border: 1px solid #6442CD;
+  transition-duration: 0.3s;
+}
+
+#searchBar button:hover {
+  background: #fc9a38;
+  border: 1px solid #fc9a38;
+  border-radius: 0 25px 25px 0;
+}
+
+#searchBar button:focus {
+  background: #fc9a38;
+  border: 1px solid #fc9a38;
+  border-radius: 0 25px 25px 0;
+}
+
+#searchBar .search-query {
+  border-radius: 25px 25px 25px 25px;
+}
+
+#searchBar .search-query:focus {
+  border-color: #70707070;
+  -webkit-box-shadow: inset 0 1px 1px rgba(112, 112, 112, 0.5),
+    0 0 4px rgba(156, 156, 156, 0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(112, 112, 112, 0.5),
+    0 0 4px rgba(156, 156, 156, 0.5);
+  box-shadow: inset 0 1px 1px rgba(112, 112, 112, 0.5),
+    0 0 4px rgba(112, 112, 112, 0.5);
+  outline: 0 !important;
+}
